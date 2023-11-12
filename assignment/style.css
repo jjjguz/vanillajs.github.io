@@ -1,0 +1,85 @@
+body {
+    height: 100vh;
+    margin: 0px;
+}
+
+#container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#calendar {
+    font-size: 3vw;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#clock {
+    font-size: 3vw;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#greeting {
+    font-size: 5vw;
+    color: white;
+    margin: 10px;
+}
+
+#name {
+    border: none;
+    border-bottom: 2px solid;
+    background-color: transparent;
+    font-size: 2vw;
+    text-align: center;
+    margin: 5px;
+    color: white;
+}
+
+#name::-webkit-input-placeholder {
+    color: white;
+}
+
+#todo {
+    border: none;
+    border-bottom: 2px solid;
+    background-color: transparent;
+    font-size: 1.5vw;
+    text-align: center;
+    margin: 5px;
+    color: white;
+}
+
+#todo::-webkit-input-placeholder {
+    color: white;
+}
+
+#todo-list {
+    font-size: 1.5vw;
+    color: white;
+    list-style: none;
+    overflow: auto;
+}
+
+#todo-list > li > button {
+    margin-right: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+#weather > span {
+    color: white;
+}
+
+#weather > img {
+    width: 30px;
+    height: 30px;
+}
+.hidden {
+    display: none;
+}

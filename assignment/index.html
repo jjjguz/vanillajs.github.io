@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>assignment</title>
+    </head>
+    <body>
+        <div id="container">
+            <h1 id="calendar"></h1>
+            <h1 id="clock"></h1>
+            <form class="hidden" id="login-form">
+                <input
+                    id="name"
+                    requried
+                    maxlength="15"
+                    type="text"
+                    placeholder="enter your name"
+                />
+                <!-- <input id="login-button" type="submit" value="Log In"/> -->
+            </form>
+            <h1 id="greeting" class="hidden"></h1>
+            <form id="todo-form">
+                <input id="todo" type="text" placeholder="add to do" required />
+            </form>
+            <ul id="todo-list"></ul>
+            <div id="weather">
+                <span></span>
+                <span></span>
+            </div>
+            <script src="js/login.js"></script>
+            <script src="js/todo.js"></script>
+            <script src="js/clock.js"></script>
+            <script src="js/weather.js"></script>
+            <script src="js/background.js"></script>
+        </div>
+    </body>
+</html>
